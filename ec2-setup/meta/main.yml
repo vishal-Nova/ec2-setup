@@ -1,7 +1,7 @@
 galaxy_info:
-  author: your name
-  description: your role description
-  company: your company (optional)
+  author: Vishal Shukla
+  description: This Playbook will help you to configure ec2 Instance in your created VPC
+  company: Mahindrateqo PVT LTD
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -49,4 +49,5 @@ galaxy_info:
 
 dependencies: []
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
+  # This Playbook Requried pip , boto , boto3
   # if you add dependencies to this list.

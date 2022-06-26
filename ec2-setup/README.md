@@ -1,22 +1,32 @@
-Role Name
+Ec2-setup
 =========
 
 A brief description of the role goes here.
 
 Requirements
 ------------
+- Amazone Account
+- Iam role with Admin Access
+- Aws_acccess_key
+- aws_secret_key
+- ansible package
+- boto, boto3 python lib
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
 
 Role Variables
 --------------
 
 A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
 
+Note: You can change the vars/main.yml according to your need 
+
 Dependencies
 ------------
 
 A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+
+Note: Make sure your Requriment will full filedd
+
 
 Example Playbook
 ----------------
@@ -27,6 +37,8 @@ Including an example of how to use your role (for instance, with variables passe
       roles:
          - { role: username.rolename, x: 42 }
 
+Note : After editing your vars/main.yml you can go to test/main.yml and edit hostname according your req
+
 License
 -------
 
@@ -35,4 +47,5 @@ BSD
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+This Play book is created by help of Cloudknowlede Youtube Totorial also the auther name sanjaydahia and created by vishal Shukla
+Please go and checkout his video for ansible course
