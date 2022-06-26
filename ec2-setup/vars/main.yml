@@ -1,0 +1,32 @@
+---
+# variable file for ec2-setup
+#
+
+aws_access_key: ""
+aws_secret_key: ""
+region: "ap-south-1"
+
+
+# VPC Creation 
+
+vpc_cidr: 10.10.0.0/24
+vpc_name: "Production-Vpc"
+
+#subnet
+subnet_name: "Production-subnet"
+subnet_cidr: 10.10.0.0/26
+
+igw_name: "production-igw"
+
+
+#Route table name
+route_name: "Production-RT"
+
+securitygroup_name: "Production-sg"
+ec2-tag: "production Instance"
+
+#key storage location
+
+ec2_key_directory: "/home/vishal/"
+keypair_name: production-key
+
