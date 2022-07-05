@@ -47,5 +47,5 @@ BSD
 Author Information
 ------------------
 
-This Play book is created by help of Cloudknowlede Youtube Totorial also the auther name sanjaydahia and created by vishal Shukla
-Please go and checkout his video for ansible course
+Cloud knowledge Youtube tutorial also known as sanjaydahia and created by Vishal Shukla was used to create this playbook
+Please go and checkout his video for the ansible course
